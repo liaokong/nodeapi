@@ -1,0 +1,20 @@
+html {
+  background-color: #C4C4C4;
+  padding-top: 10%; }
+  html body {
+    background-color: #C4C4C4; }
+    html body .login_page {
+      box-shadow: 3px 4px 5px;
+      border-radius: 5px;
+      border-style: solid;
+      border-color: #4E96FC;
+      border-width: 0.5px;
+      background-color: #C4C4C4;
+      margin: auto;
+      text-align: center;
+      width: 300px; }
+      html body .login_page .login_form {
+        padding-top: 60px; }
+
+.app {
+  font-size: 20px; }

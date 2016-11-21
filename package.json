@@ -1,0 +1,35 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "This is a program for nodejs api",
+  "main": "index.html",
+  "dependencies": {
+    "mysql": "^2.12.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "multer": "^1.2.0",
+    "mysql": "^2.12.0",
+    "redis": "^2.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api","nodejs", "gulp" ,"nodeapi", "nodeserver"
+  ],
+  "author": "liaojun",
+  "license": "ISC"
+}
