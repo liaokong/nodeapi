@@ -1,10 +1,10 @@
 var mysql = require('mysql');
 
-var username = "dbserver";
-var password = "password";
-var db_host  = '127.0.0.1';
+var username = "develop";
+var password = "654321";
+var db_host  = '192.168.0.54';
 var db_port  = 3306;
-var db_name  = 'test_data';
+var db_name  = 'fairs_data';
 
 
 var option = {

@@ -1,14 +1,15 @@
 {
-  "name": "nodeapi",
+  "name": "test",
   "version": "1.0.0",
-  "description": "This is a program for nodejs api",
-  "main": "index.html",
+  "description": "ceshi",
+  "main": "index.js",
   "dependencies": {
     "mysql": "^2.12.0"
   },
   "devDependencies": {
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
     "express": "^4.14.0",
     "express-session": "^1.14.2",
     "gulp": "^3.9.1",
@@ -22,13 +23,15 @@
     "gulp-uglify": "^2.0.0",
     "multer": "^1.2.0",
     "mysql": "^2.12.0",
+    "qiniu": "^6.1.13",
+    "querystring": "^0.2.0",
     "redis": "^2.6.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "api","nodejs", "gulp" ,"nodeapi", "nodeserver"
+    "no"
   ],
   "author": "liaojun",
   "license": "ISC"

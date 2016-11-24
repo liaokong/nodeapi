@@ -1,25 +1,3 @@
-html {
-  font-size: 15px; }
-  html body {
-    background-color: #C4C4C4; }
-
-.login-page {
-  display: block;
-  margin-top: 50px;
-  box-shadow: 3px 4px 5px;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: #4E96FC;
-  border-width: 0.5px;
-  background-color: #C4C4C4;
-  margin-top: 10%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  width: 300px; }
-  .login-page .login-form {
-    padding-top: 60px; }
-
 .home-page {
   text-align: center; }
   .home-page .top {

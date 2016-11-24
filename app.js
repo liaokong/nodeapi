@@ -8,6 +8,8 @@ var company = require('./modules/company/index');
 // var agent = require('./modules/agent/index');
 var app = express();
 
+//app的中间件是顺序执行的，所以use的顺序非常重要了，
+
 app.use(express.static('public'));
 app.use(cookie());
 app.use(session({
@@ -24,8 +26,8 @@ app.use("/static" , express.static('public'));
 // 这个中间件是用来检测用户是否已经登陆了
 app.use(function(req, res, next){
 
-    // next();
-    // return;
+    next();
+    return;
 
     if (!req.session.user) {
         var ind = req.url.indexOf("er/login?");
@@ -44,9 +46,18 @@ app.use(function(req, res, next){
     }
 });
 
+//set方法
+app.set('title', '企业后台');
+
+
+
 //静态html的文件
 app.get('/index.html',function(req, res) {
     res.sendFile(__dirname + "/front/"+"index.html");
+})
+
+app.get('/home.html', function(req ,res) {
+    res.sendFile(__dirname + "/front/" + "home.html");
 })
 
 //服务端接口

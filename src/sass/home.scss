@@ -1,0 +1,24 @@
+.home-page{
+    text-align: center;
+    .top{
+        text-align: center;
+        img{
+            width: 99%;
+            height: 190px;
+        }
+    }
+    .home-body{
+        margin: auto;
+        display: block;
+        border-style: solid;
+        border-color: #63FE79;
+        width: 99%;
+        height: 100%;
+        .title{
+            font-size: 30px;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
